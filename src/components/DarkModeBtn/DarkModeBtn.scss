@@ -1,0 +1,21 @@
+@use "../../styles/variables" as v;
+
+.modeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &--dark {
+    background-color: v.$color-primary;
+    color: v.$color-light;
+  }
+
+  &--light {
+    background-color: v.$color-dark;
+    color: v.$color-light;
+  }
+}
